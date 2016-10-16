@@ -72,7 +72,7 @@
           lng: place.lng,
           place_type_id: place.place_type_id,
           ranger_id: ranger.id,
-          place_id: place
+          place_id: place.id
         })
         marker.save
         puts place_type_id
