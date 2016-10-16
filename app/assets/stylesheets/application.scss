@@ -3,7 +3,8 @@
 
 body {
   background-color: ghostwhite;
-  background-image: image-url('grass.png');
+  background-image: image-url('grass_blur.png');
+  //filter: blur(5px);
 }
 
 .navcss {
@@ -17,8 +18,10 @@ h1 {
 .map_container {
   width: 800px;
   height: 400px;
-  background-color: lightgreen;
-  background-image: image-url('skyline.png');
+  background-color: #ghostwhite;
+  background-image: image-url('tvcog.png');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #map {
