@@ -1,28 +1,31 @@
-.marker-container
-  = form_for @marker do |f|
-    - if @marker.errors.any?
-      #error_explanation
-        %h2= "#{pluralize(@marker.errors.count, "error")} prohibited this marker from being saved:"
-        %ul
-          - @marker.errors.full_messages.each do |msg|
-            %li= msg
-    .field
-      .container
-        .row
-          .col-lg-6
+= form_for @marker do |f|
+  - if @marker.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@marker.errors.count, "error")} prohibited this marker from being saved:"
+      %ul
+        - @marker.errors.full_messages.each do |msg|
+          %li= msg
+  .field
+    .container.marker-container
+      .row
+        .col-lg-12
+          %button.place_type.btn.btn-default.active(type="button" data-place-type-id="#{@place_types[0].id}")
             = image_tag @place_types[0].img_url
-          .col-lg-6
+          %button.place_type.btn.btn-default.active(type="button" data-place-type-id="#{@place_types[1].id}")
             = image_tag @place_types[1].img_url
-        .row
-          .col-lg-6
+      .row
+        .col-lg-2
+          %button.place_type.btn.btn-default.active(type="button" data-place-type-id="#{@place_types[2].id}")
             = image_tag @place_types[2].img_url
-          .col-lg-6
+          %button.place_type.btn.btn-default.active(type="button" data-place-type-id="#{@place_types[3].id}")
             = image_tag @place_types[3].img_url
-      = f.hidden_field :ranger_id
-      = f.hidden_field :place_type_id
-    .field
-      = f.label :lat
-      = f.number_field :lat
-    .field
-      = f.label :lng
-      = f.number_field :lng
+    = f.hidden_field :ranger_id
+    = f.hidden_field :place_type_id
+  .field
+    = f.label :lat
+    = f.number_field :lat
+  .field
+    = f.label :lng
+    = f.number_field :lng
+  .field
+    = f.submit

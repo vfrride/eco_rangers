@@ -46,7 +46,7 @@ h1 {
   //background-color: green;
   //transition: width 2s;
   //display: none;
-  //background-image: asset-path('skyline.png', image) 
+  //background-image: asset-path('skyline.png', image)
   -moz-animation-name: pullMap;
   -moz-animation-iteration-count: 1;
   //-moz-animation-timing-function: ease-out;
@@ -128,12 +128,12 @@ btn.place-type img {
   animation-iteration-count: 1;
   //animation-timing-function: ease-out;
   animation-duration: 7.0s;
-	
+
   position: absolute;
   top: 250px;
   left: -420px;
   //animation: play .8s steps(12) infinite;
-  
+
 }
 
 @-moz-keyframes pullFox {
@@ -167,3 +167,8 @@ btn.place-type img {
 	100%{ background-position: -1836px; }
 }
 */
+
+.marker_container img {
+  height: 50px;
+  width: 50px;
+}

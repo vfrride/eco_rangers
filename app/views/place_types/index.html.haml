@@ -1,11 +1,11 @@
 %h1 Listing place_types
 
-%table
+%table.table
   %thead
     %tr
+      %th
       %th Name
       %th Description
-      %th Img url
       %th Status
       %th
       %th
@@ -14,9 +14,9 @@
   %tbody
     - @place_types.each do |place_type|
       %tr
+        %td= image_tag place_type.img_url, {size: "32x32"}
         %td= place_type.name
         %td= place_type.description
-        %td= image_tag place_type.img_url, {size: "32x32"}
         %td= place_type.status
         %td= link_to 'Show', place_type
         %td= link_to 'Edit', edit_place_type_path(place_type)

@@ -3,12 +3,13 @@
 %p
   %b Ranger:
   = @marker.ranger.email
+  = image_tag @marker.ranger.img_url
 %p
   %b Place:
   = @marker.place.name
 %p
   %b Place Type:
-  = @marker.place_type.name
+  = image_tag @marker.place_type.img_url
 %p
   %b Points:
   = @marker.points

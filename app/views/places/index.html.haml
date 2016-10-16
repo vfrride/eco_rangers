@@ -1,19 +1,17 @@
 %h1 Listing places
 
-%table
+%table.table
   %thead
     %tr
+      %th
       %th Place
-      %th Name
       %th Address1
-      %th Address2
       %th City
       %th Zip
       %th State code
       %th Country
       %th Lat
       %th Lng
-      %th Place type
       %th
       %th
       %th
@@ -21,16 +19,15 @@
   %tbody
     - @places.each do |place|
       %tr
+        %td= image_tag place.place_type.img_url
         %td= place.name
         %td= place.address1
-        %td= place.address2
         %td= place.city
         %td= place.zip
         %td= place.state_code
         %td= place.country
         %td= place.lat
         %td= place.lng
-        %td= place.place_type_id
         %td= link_to 'Show', place
         %td= link_to 'Edit', edit_place_path(place)
         %td= link_to 'Destroy', place, :method => :delete, :data => { :confirm => 'Are you sure?' }
