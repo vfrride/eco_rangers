@@ -1,2 +1,8 @@
 <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=<%= ENV['GOOGLE_MAPS_API_KEY'] %>"></script>
+<script>
+  var place_type_icons = {};
+  <% @place_types.each do |place_type| %>
+    place_type_icons["pt<%= place_type.id %>"] = "<%= image_url place_type.img_url %>"
+  <% end %>
+</script>

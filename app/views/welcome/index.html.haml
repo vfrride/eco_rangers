@@ -6,7 +6,7 @@
       %ul.undecorated
         - @place_types.each do |place_type|
           %li
-            %button.place_type.btn.btn-default(data-place-type-id="#{place_type.id}")
+            %button.place_type.btn.btn-default.active(data-place-type-id="#{place_type.id}")
               = image_tag place_type.img_url
     .col-lg-11
       .map_container

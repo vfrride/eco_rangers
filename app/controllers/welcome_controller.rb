@@ -16,11 +16,22 @@ class WelcomeController < ApplicationController
 
     @local_places = @local_places.within(dist, origin: loc)
 
-    results = @local_places.map do |lp|
-      {lat: lp.lat, lng: lp.lng, label: lp.label, place_type_id: lp.place_type_id}
+    results = @local_places.order(:place_type_id)
+
+    grouped_results = {}
+
+    current_group = results[0].place_type_id
+
+    results.each do |result|
+      gs = "pt#{result.place_type_id}"
+      if (!grouped_results[gs])
+        grouped_results[gs] = []
+      end
+
+      grouped_results[gs].push(result.get_json)
     end
 
-    render json: results
+    render json: grouped_results
   end
 
 

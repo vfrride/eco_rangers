@@ -29,7 +29,7 @@
   //   }
   // });
 var map;
-var place_type_icons = ["bus_icon.png", "charging.png"];
+var grouped_markers = {};
 // function initMap() {
 //   map = new google.maps.Map(document.getElementById('map'), {
 //     center: {lat: -34.397, lng: 150.644},
@@ -47,18 +47,26 @@ $(document).ready(function() {
       });
 
       $.get("locations").then(function (locations) {
-        var markers = locations.map(function (loc) {
-          var pos = {"lat": parseFloat(loc["lat"]), "lng": parseFloat(loc["lng"])};
-          var label = loc["label"];
-          return new google.maps.Marker({
-            position: pos,
-            label: label,
-            map: map
-          });
-        });
+        Object.keys(locations).forEach(function (key) {
+          console.log("key " +  key);
+          if(!grouped_markers[key]) {
+            grouped_markers[key] = [];
+          }
 
-        // var markerCluster = new MarkerClusterer(map, markers,
-        //     {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+          locations[key].forEach(function (loc) {
+            var pos = {"lat": parseFloat(loc["lat"]), "lng": parseFloat(loc["lng"])};
+            var label = loc["label"];
+
+            grouped_markers[key].push(new google.maps.Marker({
+                position: pos,
+                label: label,
+                icon: place_type_icons[key]
+              })
+            );
+          });
+
+          showMarkers(key);
+        });
       });
     });
   }
@@ -68,11 +76,29 @@ function togglePlaceType() {
   var placeTypeButton = $(this);
   var isSelected = placeTypeButton.hasClass("active");
 
-  console.log("btn: " + placeTypeButton.data("placeTypeId") + " selected: " +isSelected);
-
   if (isSelected) {
     placeTypeButton.removeClass("active");
+    hideMarkers(mk(placeTypeButton.data("placeTypeId")));
   } else {
     placeTypeButton.addClass("active");
+    showMarkers(mk(placeTypeButton.data("placeTypeId")));
   }
+}
+
+function mk(placeTypeId) {
+  return "pt" + placeTypeId;
+}
+
+function showMarkers(placeTypeId) {
+  console.log("showMarkers" + placeTypeId);
+  grouped_markers[placeTypeId].forEach(function(marker) {
+    marker.setMap(map);
+  });
+}
+
+function hideMarkers(placeTypeId) {
+  console.log("hideMarkers " + placeTypeId);
+  grouped_markers[placeTypeId].forEach(function(marker) {
+    marker.setMap(null);
+  });
 }
