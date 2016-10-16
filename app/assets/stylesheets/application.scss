@@ -1,6 +1,10 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+h1 {
+  font-family: 'Bungee Shade', cursive;
+}
+
 .map_container {
   width: 800px;
   height: 400px;
