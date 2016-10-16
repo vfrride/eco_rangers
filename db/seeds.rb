@@ -5,9 +5,24 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-    [{"name"=>"Bus Stop", "description"=>"A place to get on/off the bus", "img_url"=>"bus_icon.png", "status"=>false},
-      {"name"=>"Car Charger", "description"=>"Car Charging Station", "img_url"=>"charging.png", "status"=>false},
-      {"name"=>"Recycling Bin", "description"=>"A place to put Recycling", "img_url"=>"recycle.jpg", "status"=>false}].each do |pt|
+  ["park_ranger_hat.png", "wizard_hat.png", "red_baseball_hat.png"].each do |i|
+    ri = RangerIcon.find_or_initialize_by(image_url: i)
+    ri.save
+  end
+
+  [ {email: "jpcutler@gmail.com", password: "password12345", ranger_icon_id: 1},
+    {email: "velikovlukas@gmail.com", password: "password12345", ranger_icon_id: 2},
+    {email: "wenny.miao@gmail.com", password: "password12345", ranger_icon_id: 3} ].each do |r|
+      unless Ranger.where(email: r[:email]).count > 0
+        ranger = Ranger.new(r)
+        ranger.save
+      end
+  end
+
+    [{"name"=>"Bus Stop", "description"=>"A place to get on/off the bus", "img_url"=>"bus_icon.png", "status"=>true},
+      {"name"=>"Car Charger", "description"=>"Car Charging Station", "img_url"=>"charging.png", "status"=>true},
+      {"name"=>"Recycling Bin", "description"=>"A place to put Recycling", "img_url"=>"recycle.jpg", "status"=>true},
+      {"name"=>"Trash Can", "description"=>"A place to put non-recyclables", "img_url"=>"trash_can.png", "status"=>true}].each do |pt|
       place_type = PlaceType.find_or_initialize_by(pt)
       place_type.save
     end
@@ -37,7 +52,7 @@
     data_hash = JSON.parse(file)
     data_hash["results"].each_with_index do |point, index|
       loc = point
-      place_type_id = rand.round == 0 ? 1 : 3
+      place_type_id = [1, 3, 4].sample
       place = Place.find_or_initialize_by({
         name: loc["name"],
         address1: loc["name"],

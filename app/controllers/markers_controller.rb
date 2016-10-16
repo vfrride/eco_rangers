@@ -1,5 +1,6 @@
 class MarkersController < ApplicationController
   before_action :set_marker, only: [:show, :edit, :update, :destroy]
+  before_action :set_place_types
 
   # GET /markers
   # GET /markers.json
@@ -106,5 +107,9 @@ class MarkersController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def marker_params
       params.require(:marker).permit(:lat, :lng, :place_type_id, :ranger_id)
+    end
+
+    def set_place_types
+      @place_types = PlaceType.all
     end
 end

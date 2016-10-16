@@ -1,22 +1,28 @@
-= form_for @marker do |f|
-  - if @marker.errors.any?
-    #error_explanation
-      %h2= "#{pluralize(@marker.errors.count, "error")} prohibited this marker from being saved:"
-      %ul
-        - @marker.errors.full_messages.each do |msg|
-          %li= msg
-
-  .field
-    = f.label :ranger_id
-    = f.text_field :ranger_id
-  .field
-    = f.label :place_type_id
-    = f.text_field :place_type_id
-  .field
-    = f.label :lat
-    = f.number_field :lat
-  .field
-    = f.label :lng
-    = f.number_field :lng
-  .actions
-    = f.submit 'Save'
+.marker-container
+  = form_for @marker do |f|
+    - if @marker.errors.any?
+      #error_explanation
+        %h2= "#{pluralize(@marker.errors.count, "error")} prohibited this marker from being saved:"
+        %ul
+          - @marker.errors.full_messages.each do |msg|
+            %li= msg
+    .field
+      .container
+        .row
+          .col-lg-6
+            = image_tag @place_types[0].img_url
+          .col-lg-6
+            = image_tag @place_types[1].img_url
+        .row
+          .col-lg-6
+            = image_tag @place_types[2].img_url
+          .col-lg-6
+            = image_tag @place_types[3].img_url
+      = f.hidden_field :ranger_id
+      = f.hidden_field :place_type_id
+    .field
+      = f.label :lat
+      = f.number_field :lat
+    .field
+      = f.label :lng
+      = f.number_field :lng
