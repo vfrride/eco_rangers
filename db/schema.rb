@@ -12,14 +12,17 @@
 
 ActiveRecord::Schema.define(version: 20161015181927) do
 
-  create_table "articles", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
+  create_table "articles", force: :cascade do |t|
     t.string   "title"
-    t.text     "text",       limit: 65535
-    t.datetime "created_at",               null: false
-    t.datetime "updated_at",               null: false
+    t.text     "text"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
-  create_table "place_types", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+  create_table "place_types", force: :cascade do |t|
     t.string   "name"
     t.string   "description"
     t.string   "img_url"
@@ -28,7 +31,7 @@ ActiveRecord::Schema.define(version: 20161015181927) do
     t.datetime "updated_at",  null: false
   end
 
-  create_table "places", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+  create_table "places", force: :cascade do |t|
     t.string   "name"
     t.string   "address1"
     t.string   "address2"
@@ -44,7 +47,7 @@ ActiveRecord::Schema.define(version: 20161015181927) do
     t.index ["place_type_id"], name: "index_places_on_place_type_id", using: :btree
   end
 
-  create_table "rangers", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+  create_table "rangers", force: :cascade do |t|
     t.string   "email",                  default: "", null: false
     t.string   "encrypted_password",     default: "", null: false
     t.string   "reset_password_token"
