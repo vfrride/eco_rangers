@@ -5,26 +5,26 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-    # file = File.read('db/fixtures/charging.json')
-    # data_hash = JSON.parse(file)
-    # data_hash.each_with_index do |point, index|
-    #   loc = point["AddressInfo"]
-    #   place = Place.find_or_initialize_by({
-    #     name: loc["Title"],
-    #     address1: loc["AddressLine1"],
-    #     city: loc["Town"],
-    #     state_code: loc["StateOrProvince"],
-    #     zip: loc["Postcode"],
-    #     country: "USA",
-    #     lat: loc["Latitude"],
-    #     lng: loc["Longitude"],
-    #     place_type_id: 2
-    #   }
-    #   )
-    #   if place.save
-    #     puts "index: #{index}"
-    #   end
-    # end
+    file = File.read('db/fixtures/charging.json')
+    data_hash = JSON.parse(file)
+    data_hash.each_with_index do |point, index|
+      loc = point["AddressInfo"]
+      place = Place.find_or_initialize_by({
+        name: loc["Title"],
+        address1: loc["AddressLine1"],
+        city: loc["Town"],
+        state_code: loc["StateOrProvince"],
+        zip: loc["Postcode"],
+        country: "USA",
+        lat: loc["Latitude"],
+        lng: loc["Longitude"],
+        place_type_id: 2
+      }
+      )
+      if place.save
+        puts "index: #{index}"
+      end
+    end
 
     file = File.read('db/fixtures/busstops.json')
     data_hash = JSON.parse(file)

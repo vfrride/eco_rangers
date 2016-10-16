@@ -3,12 +3,64 @@
 
 .map_container {
   width: 800px;
+  height: 400px;
+  background-color: green;
+  background-image: image-url('skyline.png');
 }
 
 #map {
   width: 800px;
   height: 400px;
-  background-color: blue;
+  //background-color: green;
+  //transition: width 2s;
+  //display: none;
+  //background-image: asset-path('skyline.png', image) 
+  -moz-animation-name: pullMap;
+  -moz-animation-iteration-count: 1;
+  //-moz-animation-timing-function: ease-out;
+  -moz-animation-duration: 5.0s;
+
+  -webkit-animation-name: pullMap;
+  -webkit-animation-iteration-count: 1;
+  //-webkit-animation-timing-function: ease-out;
+  -webkit-animation-duration: 5.0s;
+
+  animation-name: pullMap;
+  animation-iteration-count: 1;
+  //animation-timing-function: ease-out;
+  animation-duration: 5.0s;
+}
+
+@-moz-keyframes pullMap {
+  0% {
+      -moz-transform: translateX(800px);
+  }
+  100% {
+      -moz-transform: translateX(0px);
+  }
+}
+
+@-webkit-keyframes pullMap {
+  0% {
+      -webkit-transform: translateX(800px);
+  }
+  100% {
+      -webkit-transform: translateX(0);
+  }
+}
+@keyframes pullMap {
+  0% {
+      transform: translateX(800px);
+  }
+  100% {
+      transform: translateX(0);
+  }
+}
+
+#background{
+  //background-image: image-url('skyline.png');
+  width: 800px;
+  height: 400px;
 }
 
 ul.undecorated {
@@ -23,3 +75,62 @@ li.place-type-icon {
 btn.place-type-selected {
     border: 1px solid blue;
 }
+
+.fox{
+	width: 153px;
+	height: 139px;
+	margin: 2% auto;
+	background: image-url('fox_trans.gif') left center;
+  -moz-animation-name: pullFox;
+  -moz-animation-iteration-count: 1;
+  //-moz-animation-timing-function: ease-out;
+  -moz-animation-duration: 7.0s;
+
+  -webkit-animation-name: pullFox;
+  -webkit-animation-iteration-count: 1;
+  //-webkit-animation-timing-function: ease-out;
+  -webkit-animation-duration: 7.0s;
+
+  animation-name: pullFox;
+  animation-iteration-count: 1;
+  //animation-timing-function: ease-out;
+  animation-duration: 7.0s;
+	
+  position: absolute;
+  top: 250px;
+  left: -420px;
+  //animation: play .8s steps(12) infinite;
+  
+}
+
+@-moz-keyframes pullFox {
+  0% {
+      -moz-transform: translateX(850px);
+  }
+  100% {
+      -moz-transform: translateX(-300px);
+  }
+}
+
+@-webkit-keyframes pullFox {
+  0% {
+      -webkit-transform: translateX(800px);
+  }
+  100% {
+      -webkit-transform: translateX(-300px);
+  }
+}
+@keyframes pullFox {
+  0% {
+      transform: translateX(800px);
+  }
+  100% {
+      transform: translateX(-300px);
+  }
+}
+
+/*
+@keyframes play {
+	100%{ background-position: -1836px; }
+}
+*/
