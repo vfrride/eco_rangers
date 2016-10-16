@@ -1,6 +1,15 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+body {
+  background-color: ghostwhite;
+  background-image: image-url('grass.png');
+}
+
+.navcss {
+  background-color: white;
+}
+
 h1 {
   font-family: 'Bungee Shade', cursive;
 }
@@ -8,7 +17,7 @@ h1 {
 .map_container {
   width: 800px;
   height: 400px;
-  background-color: green;
+  background-color: lightgreen;
   background-image: image-url('skyline.png');
 }
 
