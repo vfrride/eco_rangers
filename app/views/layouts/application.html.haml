@@ -4,6 +4,7 @@
     %meta(charset="utf-8")
     %meta(http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1")
     %meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    %link{:href => "https://fonts.googleapis.com/css?family=Bungee+Shade", :rel => "stylesheet"}/
     %title= content_for?(:title) ? @title : "Eco Rangers"
     = csrf_meta_tags
     = stylesheet_link_tag "application", :media => "all"
@@ -19,7 +20,7 @@
 
 
   %body
-    .navbar.navbar-default.navbar-static-top
+    .navbar.navbar-default.navbar-static-top.navcss
       .container
         %button.navbar-toggle(type="button" data-toggle="collapse" data-target=".navbar-responsive-collapse")
           %span.icon-bar
@@ -38,13 +39,14 @@
       .row
         .col-lg-9
           = yield
-        .col-lg-3
-          .well.sidebar-nav
-            %h3 Sidebar
-            %ul.nav.nav-list
-              %li.nav-header Sidebar
-              %li= link_to "Link 1", "/path1"
-              %li= link_to "Link 2", "/path2"
-              %li= link_to "Link 3", "/path3"
       %footer
-        %p &copy; Company <%= Date.today.year %>
+        #logobar
+          %p &copy; Eco Rangers <%= Date.today.year %>%br/
+          %img{:height => "25%", src: "/nyserda.png", :width => "25%"}/
+          %img{:height => "20%", src: "/nationalgrid.gif", :width => "20%"}/
+          %img{:height => "15%", src: "/wdi.png", :width => "15%"}/
+          %img{:height => "15%", src: "/pbc.png", :width => "15%"}/
+          %img{:height => "10%", src: "/ldc.png", :width => "10%"}/
+
+
+

@@ -12,7 +12,6 @@
       place_type.save
     end
 
-
     file = File.read('db/fixtures/charging.json')
     data_hash = JSON.parse(file)
     data_hash.each_with_index do |point, index|
