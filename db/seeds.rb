@@ -10,12 +10,15 @@
     ri.save
   end
 
+  rangers = []
+
   [ {email: "jpcutler@gmail.com", password: "password12345", ranger_icon_id: 1},
     {email: "velikovlukas@gmail.com", password: "password12345", ranger_icon_id: 2},
     {email: "wenny.miao@gmail.com", password: "password12345", ranger_icon_id: 3} ].each do |r|
       unless Ranger.where(email: r[:email]).count > 0
         ranger = Ranger.new(r)
         ranger.save
+        rangers.push(ranger)
       end
   end
 
@@ -53,6 +56,7 @@
     data_hash["results"].each_with_index do |point, index|
       loc = point
       place_type_id = [1, 3, 4].sample
+      ranger = rangers.sample
       place = Place.find_or_initialize_by({
         name: loc["name"],
         address1: loc["name"],
@@ -60,9 +64,17 @@
         lat: loc["geometry"]["location"]["lat"],
         lng: loc["geometry"]["location"]["lng"],
         place_type_id: place_type_id
-      }
-      )
+      })
+      puts "JEFF #{ranger}"
       if place.save
-          puts place_type_id
+        marker = Marker.find_or_initialize_by({
+          lat: place.lat,
+          lng: place.lng,
+          place_type_id: place.place_type_id,
+          ranger_id: ranger.id,
+          place_id: place
+        })
+        marker.save
+        puts place_type_id
       end
     end
