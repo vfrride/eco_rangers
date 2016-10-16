@@ -7,6 +7,10 @@ class Place < ApplicationRecord
     "#{name}<br/>#{address1}<br/>#{city}, #{state_code}"
   end
 
+  def lat_lng
+    [lat, lng]
+  end
+
   def get_json
     {lat: lat, lng: lng, label: label, place_type_id: place_type_id}
   end

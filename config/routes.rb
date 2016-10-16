@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :ranger_icons
+  resources :markers
   resources :places
   resources :place_types
   devise_for :rangers

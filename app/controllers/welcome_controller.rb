@@ -2,6 +2,7 @@ class WelcomeController < ApplicationController
   geocode_ip_address
 
   def index
+    @rangers = Ranger.all
     @title = "Eco Rangers"
     @local_places = Place.where("lat is not null AND lng IS NOT NULL").all #within(10000, origin: session_loc)
     @place_types = PlaceType.all

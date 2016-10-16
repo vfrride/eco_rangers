@@ -1,0 +1,1 @@
+json.partial! "ranger_icons/ranger_icon", ranger_icon: @ranger_icon

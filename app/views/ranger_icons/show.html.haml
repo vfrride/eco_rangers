@@ -1,0 +1,9 @@
+%p#notice= notice
+
+%p
+  %b Image url:
+  = @ranger_icon.image_url
+
+= link_to 'Edit', edit_ranger_icon_path(@ranger_icon)
+\|
+= link_to 'Back', ranger_icons_path

@@ -1,0 +1,27 @@
+%h1 Listing markers
+
+%table
+  %thead
+    %tr
+      %th Ranger
+      %th Place
+      %th Points
+      %th Type
+      %th
+      %th
+      %th
+
+  %tbody
+    - @markers.each do |marker|
+      %tr
+        %td= marker.ranger.email
+        %td= marker.place.name
+        %td= marker.points
+        %td= marker.place_type.name
+        %td= link_to 'Show', marker
+        %td= link_to 'Edit', edit_marker_path(marker)
+        %td= link_to 'Destroy', marker, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Marker', new_marker_path

@@ -1,0 +1,23 @@
+%h1 Listing ranger_icons
+
+%table
+  %thead
+    %tr
+      %th Image url
+      %th
+      %th
+      %th
+      %th
+
+  %tbody
+    - @ranger_icons.each do |ranger_icon|
+      %tr
+        %td= ranger_icon.image_url
+        %td= image_tag ranger_icon.image_url
+        %td= link_to 'Show', ranger_icon
+        %td= link_to 'Edit', edit_ranger_icon_path(ranger_icon)
+        %td= link_to 'Destroy', ranger_icon, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Ranger icon', new_ranger_icon_path

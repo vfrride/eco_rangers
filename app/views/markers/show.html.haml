@@ -1,0 +1,18 @@
+%p#notice= notice
+
+%p
+  %b Ranger:
+  = @marker.ranger.email
+%p
+  %b Place:
+  = @marker.place.name
+%p
+  %b Place Type:
+  = @marker.place_type.name
+%p
+  %b Points:
+  = @marker.points
+
+= link_to 'Edit', edit_marker_path(@marker)
+\|
+= link_to 'Back', markers_path
