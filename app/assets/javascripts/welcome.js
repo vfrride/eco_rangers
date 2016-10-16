@@ -1,5 +1,7 @@
 var map;
 var grouped_markers = {};
+var infowindow;
+var shown_place_type_ids = [];
 
 $(document).ready(function() {
   $('.fox').one("webkitAnimationEnd oanimationend msAnimationEnd animationend", function () {
@@ -7,6 +9,8 @@ $(document).ready(function() {
   });
 
   $(".welcome button.place_type").on("click", togglePlaceType);
+  $(".welcome button.ranger").on("click", toggleRangerMarkers);
+
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(function(position) {
       if (typeof google !== "undefined") {
@@ -15,9 +19,10 @@ $(document).ready(function() {
           zoom: 15
         });
 
+        infowindow = new google.maps.InfoWindow();
+
         $.get("locations").then(function (locations) {
           Object.keys(locations).forEach(function (key) {
-            console.log("key " +  key);
             if(!grouped_markers[key]) {
               grouped_markers[key] = [];
             }
@@ -25,13 +30,19 @@ $(document).ready(function() {
             locations[key].forEach(function (loc) {
               var pos = {"lat": parseFloat(loc["lat"]), "lng": parseFloat(loc["lng"])};
               var label = loc["label"];
-
-              grouped_markers[key].push(new google.maps.Marker({
+              var marker = new google.maps.Marker({
                   position: pos,
-                  label: label,
-                  icon: place_type_icons[key]
-                })
-              );
+                  content: label,
+                  icon: place_type_icons[key],
+                  rangerIds: loc["rangerIds"]
+                });
+
+              marker.addListener("click", function() {
+                infowindow.setContent(marker.content);
+                infowindow.open(map, marker);
+              });
+
+              grouped_markers[key].push(marker)
             });
 
             showMarkers(key);
@@ -57,20 +68,59 @@ function togglePlaceType() {
   }
 }
 
+function toggleRangerMarkers() {
+  var rangerButton = $(this);
+  var isSelected = rangerButton.hasClass("active");
+
+  if (isSelected) {
+    rangerButton.removeClass("active");
+    shown_place_type_ids.forEach(function (place_type_id) {
+      hideMarkers(place_type_id, rangerButton.data("rangerId"));
+    });
+  } else {
+    rangerButton.addClass("active");
+    shown_place_type_ids.forEach(function (place_type_id) {
+      showMarkers(place_type_id, rangerButton.data("rangerId"));
+    });
+  }
+}
+
 function mk(placeTypeId) {
   return "pt" + placeTypeId;
 }
 
-function showMarkers(placeTypeId) {
-  console.log("showMarkers" + placeTypeId);
+function showMarkers(placeTypeId, rangerId) {
+  console.log("showMarkers" + placeTypeId + " rangerId " + rangerId);
+  if (shown_place_type_ids.indexOf(placeTypeId) === -1) {
+    shown_place_type_ids.push(placeTypeId)
+  }
   grouped_markers[placeTypeId].forEach(function(marker) {
-    marker.setMap(map);
+    if (_.isEmpty(rangerId)) {
+      marker.setMap(map);
+      return;
+    }
+
+    if (marker.rangerIds.indexOf(rangerId) !== -1) {
+      marker.setMap(map);
+    }
   });
 }
 
-function hideMarkers(placeTypeId) {
-  console.log("hideMarkers " + placeTypeId);
+function hideMarkers(placeTypeId, rangerId) {
+  console.log("hideMarkers " + placeTypeId + " rangerId " + rangerId);
+  var index = shown_place_type_ids.indexOf(placeTypeId);
+  if (index !== -1) {
+    shown_place_type_ids.splice(index, 1);
+  }
+
   grouped_markers[placeTypeId].forEach(function(marker) {
-    marker.setMap(null);
+    if (_.isEmpty(rangerId)) {
+      marker.setMap(null);
+      return;
+    }
+
+    if (marker.rangerIds.indexOf(rangerId) !== -1) {
+      marker.setMap(null);
+    }
   });
 }

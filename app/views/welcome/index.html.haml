@@ -10,7 +10,7 @@
               = image_tag place_type.img_url
         - @rangers.each do |ranger|
           %li
-            %button.place_type.btn.btn-default(data-ranger-id="#{ranger.id}" data-toggle="tooltip" data-placement="right" title="#{ranger.email}")
+            %button.ranger.btn.btn-default.active(data-ranger-id="#{ranger.id}" data-toggle="tooltip" data-placement="right" title="#{ranger.email}")
               = image_tag ranger.img_url
     .col-lg-11
       .map_container

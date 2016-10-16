@@ -11,7 +11,7 @@ class WelcomeController < ApplicationController
   def locations
     dist = params[:distance] || 10
     loc = params[:loc] || session_loc
-    @local_places = Place.includes(:place_type).where("lat IS NOT NULL AND lng IS NOT NULL")
+    @local_places = Place.includes(:place_type, markers: [:ranger]).where("lat IS NOT NULL AND lng IS NOT NULL")
 
     @local_places = @local_places.where(place_type_id: params[:place_type]) if (params[:place_type])
 

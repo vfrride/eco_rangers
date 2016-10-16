@@ -2,9 +2,16 @@ class Place < ApplicationRecord
   acts_as_mappable
 
   belongs_to :place_type
+  has_many :markers
+  has_many :rangers, through: :markers
+
 
   def label
-    "#{name}<br/>#{address1}<br/>#{city}, #{state_code}"
+    lbl = "#{name}"
+    lbl += "<br/>#{address1}" if name != address1
+    lbl += "<br/>#{city}" if city.present?
+    lbl += ", #{state_code}" if state_code.present?
+    lbl
   end
 
   def lat_lng
@@ -12,6 +19,6 @@ class Place < ApplicationRecord
   end
 
   def get_json
-    {lat: lat, lng: lng, label: label, place_type_id: place_type_id}
+    {lat: lat, lng: lng, label: label, place_type_id: place_type_id, ranger_ids: ranger_ids}
   end
 end

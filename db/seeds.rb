@@ -21,7 +21,7 @@
 
     [{"name"=>"Bus Stop", "description"=>"A place to get on/off the bus", "img_url"=>"bus_icon.png", "status"=>true},
       {"name"=>"Car Charger", "description"=>"Car Charging Station", "img_url"=>"charging.png", "status"=>true},
-      {"name"=>"Recycling Bin", "description"=>"A place to put Recycling", "img_url"=>"recycle.jpg", "status"=>true},
+      {"name"=>"Recycling Bin", "description"=>"A place to put Recycling", "img_url"=>"recycle.png", "status"=>true},
       {"name"=>"Trash Can", "description"=>"A place to put non-recyclables", "img_url"=>"trash_can.png", "status"=>true}].each do |pt|
       place_type = PlaceType.find_or_initialize_by(pt)
       place_type.save
