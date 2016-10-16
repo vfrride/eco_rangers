@@ -1,0 +1,14 @@
+= render partial: 'map'
+%h1 Eco Rangers
+.container
+  .row
+    .col-lg-1
+      %ul.undecorated
+        - @place_types.each do |place_type|
+          %li
+            %button.place_type.btn.btn-default(data-place-type-id="#{place_type.id}")
+              = image_tag place_type.img_url
+    .col-lg-11
+      .map_container
+        #map
+= link_to 'Blog', controller: 'articles'

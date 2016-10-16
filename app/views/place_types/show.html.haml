@@ -1,0 +1,18 @@
+%p#notice= notice
+
+%p
+  %b Name:
+  = @place_type.name
+%p
+  %b Description:
+  = @place_type.description
+%p
+  %b Img url:
+  = @place_type.img_url
+%p
+  %b Status:
+  = @place_type.status
+
+= link_to 'Edit', edit_place_type_path(@place_type)
+\|
+= link_to 'Back', place_types_path

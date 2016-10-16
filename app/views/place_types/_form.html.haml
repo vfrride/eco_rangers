@@ -1,0 +1,22 @@
+= form_for @place_type do |f|
+  - if @place_type.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@place_type.errors.count, "error")} prohibited this place_type from being saved:"
+      %ul
+        - @place_type.errors.full_messages.each do |msg|
+          %li= msg
+
+  .field
+    = f.label :name
+    = f.text_field :name
+  .field
+    = f.label :description
+    = f.text_field :description
+  .field
+    = f.label :img_url
+    = f.text_field :img_url
+  .field
+    = f.label :status
+    = f.check_box :status
+  .actions
+    = f.submit 'Save'

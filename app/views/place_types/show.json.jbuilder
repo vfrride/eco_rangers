@@ -1,0 +1,1 @@
+json.partial! "place_types/place_type", place_type: @place_type

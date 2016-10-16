@@ -1,0 +1,847 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "CpQCAgEAALW_DyJ7NnzQ5H4fK10vaKtUiDW0_Gy69XtGZhjY5qHFZY00rZzvZGJ4UtKdZvD-8qybtFZjlbsnYSJd4Bs8x9cGM1nFgN4YLz_hvDO6DS9UgAYnJu7TP4HTZAnYhAy8wxQ2CMaWJaEo2zP7MD97E5MLDeZPrS5Gg8eW13sEmJ5aQzs3RMCdMGC0nIko3X7lQ4z82S3eAyAMtQDyMqOhFwpBf_hYGcCan0B1OUPg5p5DNEN39ChCyXDtmScGeQO7W_WML-nk16EnkPJxpKT1qcz43EOjaBiQOzFxXvjhB1CRPDUyxMjeb2XzRzWkvW2jtVVOCKlDUWP9htoDCCEebDsIWtXvB_kY4YVePgQv434REhAx0fXmD2OzHglPylN4Ifb3GhSzT7RMIndxLX6pQ2rR5nydPDUx5g",
+   "results" : [
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.732906,
+               "lng" : -73.69000799999999
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "3d9730ec6cef59f6819a5bc5c7306ea2b0943419",
+         "name" : "River St & Front St",
+         "place_id" : "ChIJv79MFKgP3okRkhIn0bC6_gA",
+         "reference" : "CnRlAAAAyUjZSFWu6uEjlrZhg-iqtatPCEZDhGc8IPFOwju6pZVALMhGaTPYUc-LE4wstx1KjJMqofptjh0cnne07bYHKb2LLobNSi--4mKZBpYMr3oHdjZ7QHJuwloNjoD3hMRg4dR38ZahyGM3HpAnyChMYRIQVUbm-StzQtbHKqajFHgfyhoUj7gepwGb41xhGB932yjgE-KNZ70",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.732664,
+               "lng" : -73.688706
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "fe701021e5f78866c4472f546cd3448a3839b671",
+         "name" : "4th St & Fulton St",
+         "place_id" : "ChIJwyGw1qcP3okRA2c8Nuk04gw",
+         "reference" : "CnRlAAAAXo8Sni9VS3S0T7YzSg4XxOw43itjMeDYiYcbHs68pyjqrj8-WjTimuOj2ec7MoZUM-R86CTWSsOEoVWLRK5CXYQlm9mCt0OQt_N52AHPpxiJ0ifAk-QXGBgjax2NHZcbu3LGKqEf91IkGXFaSLzYbRIQvGMl3VSSEkPbH_G0lPLJURoUq2qfqketAmNlPk4NpACiUStLm1A",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.7290692,
+               "lng" : -73.6908608
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "9ab8a899192773dd2bdfaeaa5c08af8b403b1e20",
+         "name" : "3rd St & Congress St",
+         "place_id" : "ChIJi2A5sQcP3okRkBdT1S7Lj7U",
+         "reference" : "CnRoAAAAD_eXvXzHWvv5FG4rhxJXJ5NrsFYjeHnLn41-LuVjJu5ZgE-vVcUyBHwocUKdjXKAELwLi343_StJ9tw2JxbmvC7ImjrT8VAROt8atQrAN_3UEuYq4eDEVu5xvLe-FsF209a-FxH-qfUmOuLkT1H2AxIQou6d3taLKfRnJ9qRO9exNRoU7K5MKiFTc8VvFaNzbe-bnjSzzN8",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.728658,
+               "lng" : -73.689483
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "47ae131745d75d457fd460532c79618965ecce0f",
+         "name" : "Congress St & 4th St",
+         "place_id" : "ChIJD5fK0wcP3okRIGUbn9uMFWo",
+         "reference" : "CnRnAAAAFvsXdoow06MEI2Q7QqjRbv5igXyfgm4Wo6Blc2_qaf10ykSK_DRl621YzWQOOXhPHqOxD3gqJSHt4hzxPwrFRXiM4v_phd4Adfua2wWvAJFDaPMOw1Yf9s0OAYR-O3PdV723tA_siC90CyqiyTADmRIQMSR4MCHM2uXOdh_0FlmQshoUfdT9EoPDuTPtJFk-vKR-9_8N1vs",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.72853,
+               "lng" : -73.68957999999999
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "446c5ed1e4061c1367664935a02e2ca201dae094",
+         "name" : "4th St & Congress St",
+         "place_id" : "ChIJs-zQ0gcP3okRoMECH2xCYBc",
+         "reference" : "CnRnAAAAHaZ1xOw7sTJC7cZlj9HpOKDqkJpUebByEClTVOiDquegXMytJvkdLc7JEU63hodbXDmSQSFfG1xz3FHh9e0R7d9ZsIzQ2uexWz2gPmJHjYWRWjEdKsgbNrtnZ3axZiEPKonNuQx0A7nlYAYvdOJRfxIQy2_AuzohBqQkylcx6OdKFhoUbJ7qRB8o1PvRSAAss96VS-DKRYU",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.72852,
+               "lng" : -73.68809
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "180c2b624d2ee9868d0cb490219b86e6ca161c36",
+         "name" : "Congress St & 5th Ave",
+         "place_id" : "ChIJ149hYwgP3okRLuaEnDgWoFI",
+         "reference" : "CnRoAAAAP2qJW5ukC_wnK51gu-v8eai8YQKSUXut01kbSZo9bUXIrPaMQ0Oxwj-SlFZ_90x3_l_aypDFusTehoyVJqZthRb-Z1BlbdKOwSKw_gePXQ9QdwULqMVsmdZCEEiajf9vAm929xQWTqWe0JE51PvclBIQS0sxbbEsEyea4lwr49mqXxoUpvhAWg3TvFbD1Fy8c2eKle4AxSM",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.72788,
+               "lng" : -73.69101999999999
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "679963c55121e67f906c02368598939566237a7f",
+         "name" : "3rd St & Ferry St",
+         "place_id" : "ChIJHaLlRAYP3okR9kftxNuoO9k",
+         "reference" : "CnRlAAAAQMSU19AXClw7CqXq34mrl7KXgB62BoaPujC8qlcZmTZfxbJCUfoKeLRgyL4y-MemOJJlywtURzFkbQ6J7fPM2p_oVSQOHR5f3zDBiin8SY2EaH4HSCg8lZNvaNHg_bUrS6jZOt1GE_WqxFT0xpTyrRIQJeKoW3uS8uB2KUF7THwyWBoUgh60ghU3uiEzZlzsxcn7H1tdCME",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.72759,
+               "lng" : -73.69069
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "904351972e3a9b49af7f8fe82352088b1b1b7d2f",
+         "name" : "Ferry St & 3rd St",
+         "place_id" : "ChIJhU_EQwYP3okRe9k70luddRI",
+         "reference" : "CnRkAAAAwCaLBkTCaSdXrMcS_QR7SrQi3mnEYcO6KMAi8DqYcsfWW3FOWaL2xXulgmnCEPZl_XwfAkqW4FpASEdbtIG8q85ti9rudoT1MHys96evS3dO8m_KkXGDfdTnKwP-K8y7FwY6R3zE_d2-ywY2g6U2kBIQCYe2ADejvcS9fgX6fvJlxhoUXwiBJaDmavO4AFE6U1kdwiK2nXM",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.72749,
+               "lng" : -73.69004
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "4b2cda71a50e6708c2451fed38e112a425157cf1",
+         "name" : "Ferry St & 4th St",
+         "place_id" : "ChIJhwEqPAYP3okRbx-iYulcSIU",
+         "reference" : "CnRlAAAAHL9oOeoCzpdG1aJST1UFSlcw04Gqs8plNVIqUuoGu88R7vKkndYh2rreXAo7QAN9Q0yxgA_soly7JhgH7ib6MxDhMwX7AuCumf5lxcWLndD-B7mNF7Wf2m2TMYIhGFWe2HmxN-YqUmC4munUtzesvxIQnmwDCvPoOxOioInWsGXjnhoUg407HLjQTg9fI4YRkW1lpJS2KwE",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.727454,
+               "lng" : -73.68986199999999
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "220e338118527fe1998e2c62ff11692cd09f99a0",
+         "name" : "4th St & Ferry St",
+         "place_id" : "ChIJ93NVPAYP3okRen3kxI331mg",
+         "reference" : "CnRkAAAA5P5SEobept_Eo9G7kp0iqorvexAiC9bhx3MKlkDkN2adETvMO5_mq2kwkNZI3M8AZkw9bXmxrC4UwrLOXhbdzWi0HWt2hSC_i8smEZ1zMYmZZhXuzZKhkz8MPJU8Si22qCBFKhbYxUaOuJXJShZiVhIQQNm-x3U2XYam7D6zp40mvxoUbYowxynLesx8mKpFb_jTaKTls3E",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.734327,
+               "lng" : -73.687488
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "9050e8f57b3bb094da9938c3208c47e0bfb41874",
+         "name" : "Federal St & 5th Ave",
+         "place_id" : "ChIJXyUUa6YP3okRSzWmODkc0XI",
+         "reference" : "CnRnAAAAo3ETLG_DVUuiUE2Y5b1IbEsDhg4xjFqvtipkQhX1Xgyry9oSKoAPPMaj9clvJseZcDeAbvU1AdExIwgPOZpTk0rnBBwy7tCX_I2rzqB-eAd1krEiugSEXQA9oTmOFNB3vC7araO8Hs_NMZ52_NxvhBIQMag71aqpFBEnFYVf6VI0ExoUh2Fs6bddUrRhCwypoBrCvopkO-4",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.72744,
+               "lng" : -73.68874
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "94f655934af94c3f97dc2574479d4c655a7c09b8",
+         "name" : "Ferry St & 5th Ave",
+         "place_id" : "ChIJ6VIqnAgP3okR9o1rUJJdXQ4",
+         "reference" : "CnRlAAAAo7lfR-xGnKaz8U3SSd6UHJKaUsMc050XfhqP-hDxcpHVCdb6troWuqPs0D6iWR0oBVM13gOZwQevTpOWXz_RX_KzSAayDfnWx3RsrQjuHh2RTIEl4QhEZFIBxWufvJNYU7g_3NJXoNPwuVjAKpZM-BIQeaCutH7iNvVD-mEy5OY8ERoUh6JUMV7cUODdKsbAw-qYTcVbCjg",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.73408699999999,
+               "lng" : -73.68662599999999
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "f4035c510acbfbf62dbbafd3553605c81aa4dd8f",
+         "name" : "Federal St & 5th Ave",
+         "place_id" : "ChIJ8WHRZaYP3okRkpmZGLeX3rE",
+         "reference" : "CnRoAAAA4wmq91nhYbTr6GjR8QFTqUQ6tywdYjRmW5TrOofK7hahbMuJecaT9G-6IEm6T2id93kRf5DsOQGWz3j8URdxIPzQzHROtI7r7985IwINJRswHZGa1VrI4oqKw4hOhRVQPPlpkDMM-mWvp0J87_BAQBIQWMLbwBmFcMgoF41fj0E-WxoUXhjDVYrW5xPU9czZt0uflBgxH_I",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.73374,
+               "lng" : -73.68602
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "143e77e3de7c3047a70247d9018727779b6f3750",
+         "name" : "Federal St & 6th Ave",
+         "place_id" : "ChIJD9GDX6YP3okR2CKrSzfW21A",
+         "reference" : "CnRnAAAAGTfZgnJGMiLCseGXzAjJELJ-JmGAeEU3SjcDUPn1nLMgXUvdQl2irJzmMcFdEvdiQacqLIp2lJ_BiIn4mJ_xsE61IHjcpt6C0yOj6ekQ7NOG0d-cDQ7pSk1dGU-IUYVHT3tYWua_IPKNzCAyvRSzEhIQj6LqpvF3uurcUmsPGJjYtBoUNzmPgC_-NYBlMmRTbLD_kweZlYs",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.733576,
+               "lng" : -73.685575
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "449adf2baf069308bfa51e75a35232eea94fe7f9",
+         "name" : "Troy Towers",
+         "place_id" : "ChIJjb_t86YP3okRBInpwjOWisI",
+         "reference" : "CmRfAAAApEm7QLYQ6gfGpSMpF5_GQuaF313fb93RDggYLw3gxCKpeFaYhFLo562-90yJdl7Qy9FLOvluNS3_T-BsdlmUXWu9YeLuBnE8WGQ6qwCUVFZJFghU0eBMq3GDO2X1lXNrEhCx7kiAAyElWJHv2rUZSnMdGhR2XDopttFPrxCH_qjtr4bEzIyyIg",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.73506,
+               "lng" : -73.68786000000001
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "7ec31be70e398ef17757310136c49d2151337b08",
+         "name" : "King St & Federal St",
+         "place_id" : "ChIJga7NDKYP3okR8BKNOUDEBpY",
+         "reference" : "CnRoAAAAhVI3lMhBH9t73wncHhvEAr83iWrEpWL5J545E8BupfFuPnoCtnzT-3ywct40F5HSUGKRxYe2xBXRlGyAwQP3MAsON4utUQtApvPPzmyWqzCGulIwpDSI8kOKZxnS6KysqaFE0yfXcBdo1puF8duyihIQboQs8_TX74cwYoe2Fz0NVhoU_Q41eIm9zxbUsgdAHaGAY6euLcs",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.73372,
+               "lng" : -73.68549
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "ebaf08ebcb9a586264053aaf512531ff5317c39c",
+         "name" : "Federal St & 6th Ave",
+         "place_id" : "ChIJD4kX86YP3okR-rgXBFr_HMQ",
+         "reference" : "CnRoAAAAZ-A-IRmLamuIkstma8tlAUu7sQNxUVL8ixtbPAaXpb51GVivRBHL8QibiO6Gub-n6FsEFvQmQ2eVwQrLItpI1KiUyfDXcBlbFQdCNhPUru3bVdzyUd8XmNYnLWLtHVIkDTlJj03YBxDwTWc05KG1hRIQqE06V-lYpz3rnz10OPVIaBoUoJ58Fn_hO0qOhQECDE1CCu60MrY",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.735014,
+               "lng" : -73.687431
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "a83560692d82e1c18401ec9e6ad540ea2b9893e1",
+         "name" : "King St & Federal",
+         "place_id" : "ChIJTyqwdKYP3okR9-3IpzE0OyY",
+         "reference" : "CnRkAAAArU-o1jDMQF8nynMRWpnna4vp42gx72d_4pnHZMt4VzFxstSDZ5fM_BA0_GlwjsKuyIrcHXtk6BuREp7EJ3EgaS3mB1WhTwu5UlEiAJCw5acRz6Dt62gS7pb12nPec6lbjEdcw1fevA3TadIwQwbpmRIQykvePio0s3HrGGN0CR2xBRoUNKqHqW-UC4ToipS5WZa72gR2408",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.727144,
+               "lng" : -73.687506
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "ddeb558a66584beacbf7180aff143c0033aee624",
+         "name" : "Ferry & 6th Ave (City Station)",
+         "place_id" : "ChIJfcDPlAgP3okR1Nz1WPP7zGI",
+         "reference" : "CoQBcQAAAAOF0unFlXHdauW8w_sB2k5qw2myJ_iJo8lxzHlmz1s1X_0q-2SPnK__oum1SBjj_6kPx4djprjoneIPVG09tatq0Xnnwy4j3azM-2CAqKE-tONruOu9yyL3rr29XE961P6duNUbYtXdp00juRCbdeh0Epqy7jeyvKebq_YfzE_wEhApmUwqcyZgWuTSYAp2I0AkGhQVGg6StlY6mF7Jjrj8YLn-sqhCbw",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.73421,
+               "lng" : -73.68552000000001
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "ef0e1b8978deba4a239a1f4e5a135c17360e13b9",
+         "name" : "6th Ave & Federal (O' Neill Apts)",
+         "place_id" : "ChIJAZPojqYP3okRwdZCicRyRYw",
+         "reference" : "CoQBdQAAAM21NlzEWYuIdSZJr5W9RUy-efOG5ZfgYMyBC0EAcMLsKCCc1abFBQ5keSetu2KV31j_XMMobApxIXXaDlsb30jtT4LzW71YBMpo7_wm-uepbC5CPjJgQuPZu2wWbqITfJKlXGXz4_qQH9N5TKQ4_Csen7tgq0b50kplO-FQZ6qCEhBNv1_Btvapcm_jy1aCZj_sGhRfJlDg7opU2pr30OU9jPXLrQO1iw",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.732906,
+               "lng" : -73.69000799999999
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "3d9730ec6cef59f6819a5bc5c7306ea2b0943419",
+         "name" : "River St & Front St",
+         "place_id" : "ChIJv79MFKgP3okRkhIn0bC6_gA",
+         "reference" : "CnRlAAAAmVeYgwidAIASv_cmavOQcE2VrOoR_SFqv8HqW-P3JyVUvjUGVpEMAe2hX2r0n80miSWSvhtEIbx-bRcNjWyEGxJNWHtJedNh2gcKNHdhSOp9XmyaDfjKB4PsAKpql8R04IzU9WX9mc0PlE50Z2KDexIQ3C_947j4cG8gyvGNYpmMkBoUlkbs0Ac0EnCsPwnm6XSEEkAhJsA",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.732664,
+               "lng" : -73.688706
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "fe701021e5f78866c4472f546cd3448a3839b671",
+         "name" : "4th St & Fulton St",
+         "place_id" : "ChIJwyGw1qcP3okRA2c8Nuk04gw",
+         "reference" : "CnRlAAAAAdaDX_gUh8QnF-7mBi_-cA20Cikj2xSAT5Q6pgQ-mUqciao8QKBc1_i7ZUZB5PaxzEzg3f9OejbS7BZQabYnLlLHtHai_Se901leiAxmef8yhyfo29eR2y8Fvu9iKbPoPYdwex9g6vKuODESFuIgcRIQUQd5A-mUfXBcuI5vmc1vaBoU4cMI8AK9rrJeK1oRPLXC5RpjA20",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.7290692,
+               "lng" : -73.6908608
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "9ab8a899192773dd2bdfaeaa5c08af8b403b1e20",
+         "name" : "3rd St & Congress St",
+         "place_id" : "ChIJi2A5sQcP3okRkBdT1S7Lj7U",
+         "reference" : "CnRoAAAA6iUPcmxbjxT0pmlSFG79a73wtlnX3bpPynNaB3WhdNhRa4tWhqMDPmJ-KuYdoRsWJFaa29tIR_jYU-K5tziWJS4MozdJ5r9NY1nSQLAHU4uUyTSmbcQ3l_AmEL1NTZ3M6ugmbtkkKhz486-VGNlYOBIQi8eaVWsXZqiSCyPU8XLn7RoU39dNfPg7clVONq0vG_zyYxIf1Jo",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.728658,
+               "lng" : -73.689483
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "47ae131745d75d457fd460532c79618965ecce0f",
+         "name" : "Congress St & 4th St",
+         "place_id" : "ChIJD5fK0wcP3okRIGUbn9uMFWo",
+         "reference" : "CnRnAAAAQ01jgCBwtNukT_O7JIkBVEd9vs0CRDBhiw8-tk_U-CE4NgN_LGYvNqAGbZEnE3DBbyK4jMW-hfLSsqFhYyQcEnqXasLL5NbwqsqIo1US-VNOmRASqsQTBs0Ow1p2SvphZh2sMiie7JcyLVoTdeSvdxIQzMEiqqDinRIdMeQybUwkTxoUjNe1jKe0o_EFuR-aNqAWqspXcAQ",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.72853,
+               "lng" : -73.68957999999999
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "446c5ed1e4061c1367664935a02e2ca201dae094",
+         "name" : "4th St & Congress St",
+         "place_id" : "ChIJs-zQ0gcP3okRoMECH2xCYBc",
+         "reference" : "CnRnAAAA6z-LJc8aVA4hLrUD9cke1NLQn0-uWJT7fGimEC7LwDO6F7n1Bq0vpq04UhxDOPN8uphQYnSvlqIKNPu8T8q3NgTd9uIdd8UCnBxTYXuqHUaA3s_5mGIIiaE2IiwcWLuDasg6p5HYRl_CwMW7_YAU9hIQOijdIZMwff3nDo3upmuAYhoUGXZw-GPdk_FMFiBwhjmDGUjbrU8",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.72852,
+               "lng" : -73.68809
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "180c2b624d2ee9868d0cb490219b86e6ca161c36",
+         "name" : "Congress St & 5th Ave",
+         "place_id" : "ChIJ149hYwgP3okRLuaEnDgWoFI",
+         "reference" : "CnRoAAAAy4jLFQAeVZ6Jv23o3fu1qKVJsZ9Q5MXbQqV0Scw35Cisn2_7A8PXCJr5Xjb_Zo0hzFMctADptYKS5Q7b1P39dnZJAXGLqkvQE2OAiEq1wQAAKGCxArm3HflGaslS67WejbMgkI_wOKAK7YHSWJlFIxIQnW5G0IIiYzgT4P9mxXKqtBoU2egPJJ8TPsh8mKDCTzJhPhHxI8g",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.72788,
+               "lng" : -73.69101999999999
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "679963c55121e67f906c02368598939566237a7f",
+         "name" : "3rd St & Ferry St",
+         "place_id" : "ChIJHaLlRAYP3okR9kftxNuoO9k",
+         "reference" : "CnRlAAAASnhoESpYrYIec5uK-0TiIpbFr3WSnuYR4q-w29BKReV3G7wgM1P6yVaYrpKN4uuA0cnAg1rbBOjHFUxRV8VQPbltEv7SUgQ8SbQQp81z2t3_iHBQWW7FRCp7mw9Uv4kA3TuHycBhRY__vzGl05J5HhIQiPcmvAMzkeZ69D7yafzRBxoUG7buMDmH4N3Qj52Rfe0dUwQ00-g",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.72759,
+               "lng" : -73.69069
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "904351972e3a9b49af7f8fe82352088b1b1b7d2f",
+         "name" : "Ferry St & 3rd St",
+         "place_id" : "ChIJhU_EQwYP3okRe9k70luddRI",
+         "reference" : "CnRkAAAAEZLtg6ssqaQTMGGMS3OE_oSmxxpChe9W43hxL3CbwgqpO2faugXv-YiJ_S6MzBxSTOslgWiJDuuvYhFlPnd6zxyGhRn-DBo1GxKmmgrIt7hAbUkkJlaFu8ABwzA1-6XuTxKUvlaf3NqgmGGaJwl15hIQ_aUUn0QAKYEGM82TvwYLIBoUxSlj27zkj30rPHvT_1HKxKZAIXo",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.72749,
+               "lng" : -73.69004
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "4b2cda71a50e6708c2451fed38e112a425157cf1",
+         "name" : "Ferry St & 4th St",
+         "place_id" : "ChIJhwEqPAYP3okRbx-iYulcSIU",
+         "reference" : "CnRlAAAA--fkxeLu3Aw7Zu0Qu9v64cEoEvTELe3NTFNmHYuSuC5zeR9JBqjvl_zZUn8J8c-MEV4ZLlvB1TsDTHuBV-avjfKDNenzzo8KPUiVGH96WUBRZiZnzEdqSqfB8LIEIxKe76JOvbuIvA5X_PJjaHc5qhIQmg71_LBE3A5swA-JP4l13RoUKg2hcFb48W5XNELytxDgUT_Q6n8",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.727454,
+               "lng" : -73.68986199999999
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "220e338118527fe1998e2c62ff11692cd09f99a0",
+         "name" : "4th St & Ferry St",
+         "place_id" : "ChIJ93NVPAYP3okRen3kxI331mg",
+         "reference" : "CnRkAAAAayoruOtM4nqmti4xy-MR3Ik5Ff03HznDWpdoBuqGAr3k7m26-w3qbRj2kHIE7CbAmP8LTR5rjX0ARB5AL9YuCBi1k2VjVHJH9EFB16WVMBqS_p5uTi_jz4fyrrlPqRz9NjUNwg7qfV7pBMRczuPXDBIQ8k0HSoG40AVfG0qLtRVrohoUZpy3FVqYOZ4NTSt5j_VQakRNs9Y",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.734327,
+               "lng" : -73.687488
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "9050e8f57b3bb094da9938c3208c47e0bfb41874",
+         "name" : "Federal St & 5th Ave",
+         "place_id" : "ChIJXyUUa6YP3okRSzWmODkc0XI",
+         "reference" : "CnRnAAAAlinq3_4ikRpWAdK6yqE94wBUOTB9qUTq-t9DNm7SPTJdwJa6wGpbNBwVM_xwk6CbrIAYlffHNkSr13rTQiVaZGv4KBDmf11QC4SCTTHhLJ8gggpIn0TlSi3ye7g4QP9O7S04nc4P3ylJU-duPOnHMBIQLV5C745VuDlA0-XckdO1ORoUSedsXQTOL07S5m8qumKRtIZw3Vg",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.72744,
+               "lng" : -73.68874
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "94f655934af94c3f97dc2574479d4c655a7c09b8",
+         "name" : "Ferry St & 5th Ave",
+         "place_id" : "ChIJ6VIqnAgP3okR9o1rUJJdXQ4",
+         "reference" : "CnRlAAAAOuRamYh8ldVj7To0gSH2QDjvQzDQWCQOhrwxf7nMYnOUFQgEXflIPabcI0JczeB06zLSuIcvaSZze3r90OT7kyZFls_a1xy9f3a8BZpEJKkHbbtaL4rFPOxFyA1rjFKDW55TbsoPB-UTlovG0br2vBIQ-rdRhFU4_3HMxK7nBlQ1WBoUcKqLdbZGhhuXQj5EIyWNKph28cs",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.73408699999999,
+               "lng" : -73.68662599999999
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "f4035c510acbfbf62dbbafd3553605c81aa4dd8f",
+         "name" : "Federal St & 5th Ave",
+         "place_id" : "ChIJ8WHRZaYP3okRkpmZGLeX3rE",
+         "reference" : "CnRoAAAAeCOz506DcYDv5ITKxfD7Da_jsMGbsiB31ViufZrzpiyUsaXlUxl3sg7S3kUtnnwiid1Rdm2RET9k-sEkpiGRJPGM5lyuzR_Bf2__d_LAI9Lmn3rhMuz86R8QYgjq94fl8-_05fuy8HVb_n55ttHZExIQQBj3reQMiGiyg2aWy6-puRoUHgk3kYT1T4ejHMK-lf0rDMs2oUc",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.73374,
+               "lng" : -73.68602
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "143e77e3de7c3047a70247d9018727779b6f3750",
+         "name" : "Federal St & 6th Ave",
+         "place_id" : "ChIJD9GDX6YP3okR2CKrSzfW21A",
+         "reference" : "CnRnAAAAQIieb7y8FYByxPk-fAEWcnHuTOnzWhg-1mH9EXgUvjC4iIbqdcqdaWq7DqpdHMsXYrFr8RiSitL0pBKIhe3mT1DqCNfMA4U26T59TRPl9Nh_hf0hVBcJm3upF3uICus__-6TGkWiKI4J-DljuHxV7xIQZut7KX-10Uyfdp1GVi_DhhoUA3u5m1-ZAOBCpzC9QEPzZAzYhdI",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.733576,
+               "lng" : -73.685575
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "449adf2baf069308bfa51e75a35232eea94fe7f9",
+         "name" : "Troy Towers",
+         "place_id" : "ChIJjb_t86YP3okRBInpwjOWisI",
+         "reference" : "CmRfAAAACl_rc9vJd8L_xFKTm3CVyCFdTZaC_pXlw7OoZbNnhcP0GdfEA6LfN3e5WbqULpZzoRUwML29_LLLjcEKY3AjC9x_y08IeYuN7wEw57P8yBGpD7d1VoOz9H-cV1GEN8P_EhArhNTyDa38g_3nRe6v_s7GGhQv8wsPeIfK1IsTuQFhrV8vzW00OA",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.73506,
+               "lng" : -73.68786000000001
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "7ec31be70e398ef17757310136c49d2151337b08",
+         "name" : "King St & Federal St",
+         "place_id" : "ChIJga7NDKYP3okR8BKNOUDEBpY",
+         "reference" : "CnRoAAAAX3U4ZdYCGcGSRvRarO6-iVKZYpnip0mOYJx7Zs_sl2nUEmLVk7bnu5ZjkHW-SI6BTJHiqZ3x-6d-5fSWfXFNi3dDuyjIvUsDeI7sDLoHMEqJbIu1OPR2bova78ujTl2UDTNMAtE7qG603BWtsBbn0xIQm-jr5WbNMqYUQS8Sv9Z0PhoUgSLzERh677Q_Mnm4itnXQNxPnuQ",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.73372,
+               "lng" : -73.68549
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "ebaf08ebcb9a586264053aaf512531ff5317c39c",
+         "name" : "Federal St & 6th Ave",
+         "place_id" : "ChIJD4kX86YP3okR-rgXBFr_HMQ",
+         "reference" : "CnRoAAAAJZl1x_xp8SvS0UO96tmO7cev8KkYpgVRf0MjYQc5RWE7i6SI1d3ifDNd0SdJUCCvTTShaWjc8fIoqeVbVGOng2Z0U-r17XUnyMMc4mxi27xylbxQuf43AuYgYq8gc6F92i8nEwEaLzxbnfqM0NWDGhIQbxPDr2-U05ypOgsvlGMbWxoUActRSqSVkJwceOgzJTZeSX6ymyk",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.735014,
+               "lng" : -73.687431
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "a83560692d82e1c18401ec9e6ad540ea2b9893e1",
+         "name" : "King St & Federal",
+         "place_id" : "ChIJTyqwdKYP3okR9-3IpzE0OyY",
+         "reference" : "CnRkAAAA3OkJ8vZJ3SCXX_FUNQwOrTwfhbVnWtN6Cq-O0QfIZDJRKnESl8Vv9K9ylWqyYFzyMzVChfXsmOgfRofZIOpHMZsVXrMj3Tqvqc_7F7wXgardgLpel3L-lxT5weCsPpWfvyK3g6oEo4oDOXu4HyvQIBIQmhw31EDLE_Wql6va0wcn4xoU_L3bFAeJtJK0XQhoA6n-Dpjcyfg",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.727144,
+               "lng" : -73.687506
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "ddeb558a66584beacbf7180aff143c0033aee624",
+         "name" : "Ferry & 6th Ave (City Station)",
+         "place_id" : "ChIJfcDPlAgP3okR1Nz1WPP7zGI",
+         "reference" : "CoQBcQAAAEvp_Wce3s1VTpbaU3iFMx5hHvfIFGl_lzLWyAE3DC69BIGUOSgbnroAqB3wxvuWfpqgSgeAzTXqzJbY-5NmkhNxeuW75sueHAv3cDG-DYlz-YB2YsUsSDZRBMwj_xuQ7sBqmEqnp4QkE5MTEi7qbZodr2AieZ1Xoq_shIKpD51mEhAs9jjS8iFNShPFBQ-FrfyvGhRe801YG51Ob9ElKa6o0ucuSDJRWg",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.73421,
+               "lng" : -73.68552000000001
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bus-71.png",
+         "id" : "ef0e1b8978deba4a239a1f4e5a135c17360e13b9",
+         "name" : "6th Ave & Federal (O' Neill Apts)",
+         "place_id" : "ChIJAZPojqYP3okRwdZCicRyRYw",
+         "reference" : "CoQBdQAAAK-UDu2gcb6OtrFfbD22o5sp_2wuFRbb3jHXhoiHdk2lNezxq1uX-ZeIc0VXFV1DRkBQczndNeaAF8yNHzAH9gbUrOwGVkDC0ECeFk4Nvi35yGR6mEB_l1HjyNHM7Baq3o7zVUPTvlwhh38WJzUKC2tmhoBRxz_6ugqb0lWsDiNTEhAN91U7VKGoXw-fLdQsRH-ZGhQPy1CIOzQskL_UxFMTucl8wxmwNA",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bus_station",
+            "transit_station",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "United States"
+      }
+   ],
+   "status" : "OK"
+}

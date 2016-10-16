@@ -1,0 +1,1 @@
+json.array! @place_types, partial: 'place_types/place_type', as: :place_type

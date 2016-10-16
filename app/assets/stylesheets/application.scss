@@ -1,0 +1,25 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.map_container {
+  width: 800px;
+}
+
+#map {
+  width: 800px;
+  height: 400px;
+  background-color: blue;
+}
+
+ul.undecorated {
+  list-style: none;
+}
+
+li.place-type-icon {
+  height: 50px;
+  width: 50px;
+}
+
+btn.place-type-selected {
+    border: 1px solid blue;
+}
